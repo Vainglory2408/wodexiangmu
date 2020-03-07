@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "name": "小米手环4 NFC版",
+    "price": 229,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1560238127.40319869!200x200.png",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1560238127.29931894.png",
+    "xinxi": "全新 AMOLED 大屏彩显，手环刷公交卡、门禁卡，能用支付宝抬手支付。内置小爱同学语音助理，能遥控智能家居。50米防水，支持游泳模式。还能看微信、看来电、测心率、测睡眠。戴上它，你的改变从今天开始。",
+    "peizhi": [
+      {
+        "peizhi_id": 101,
+        "peizhi_title": "黑色"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Redmi Note 7 Pro",
+    "price": 1199,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1552647852.7014902!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1563848312.48538606.jpg",
+    "xinxi": "索尼4800万超清拍照 / 6GB+128GB大存储 / 骁龙675处理器 / 4000mAh大电量 / 18个月超长质保 / 6.3'水滴屏 / P2i整机防泼溅处理 / 标配18W充电器 / 德国莱茵 TÜV 认证护眼屏",
+    "peizhi": [
+      {
+        "peizhi_id": 201,
+        "peizhi_title": "镜花水月"
+      },
+      {
+        "peizhi_id": 202,
+        "peizhi_title": "亮黑色"
+      },
+      {
+        "peizhi_id": 203,
+        "peizhi_title": "梦幻蓝"
+      },
+      {
+        "peizhi_id": 204,
+        "peizhi_title": "暮光金"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "小米CC9",
+    "price": 1699,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1562056112.56184287!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1562056090.0987631.jpg",
+    "xinxi": "前置3200万自拍 / 索尼4800万超广角三摄 / 多色炫彩轻薄机身 / 6.39英寸三星 AMOLED水滴屏 /4030mAh大电量 / 骁龙710处理器 / 屏幕指纹 / NFC功能 / 红外遥控功能 / Game Turbo2.0游戏加速",
+    "peizhi": [
+      {
+        "peizhi_id": 301,
+        "peizhi_title": "深蓝星球（蓝色）"
+      },
+      {
+        "peizhi_id": 302,
+        "peizhi_title": "暗夜王子（深空灰）"
+      },
+      {
+        "peizhi_id": 303,
+        "peizhi_title": "白色恋人（白色）"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "小米随身蓝牙音箱",
+    "price": 69,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1578377349.02333205!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1578377349.02333205.jpg",
+    "xinxi": "玲珑身材，不同凡响 / 车载通话，内置麦克风，稳定清晰，伴你安全前行 / 全金属外壳，3款经典配色",
+    "peizhi": [
+      {
+        "peizhi_id": 401,
+        "peizhi_title": "灰"
+      },
+      {
+        "peizhi_id": 402,
+        "peizhi_title": "金"
+      },
+      {
+        "peizhi_id": 403,
+        "peizhi_title": "银"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Redmi 8",
+    "price": 699,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1570878871.18682080!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1570878886.62973444.jpg",
+    "xinxi": "5000mAh大电量 / 最高可选4GB+64GB版本 / 支持18W快充 / Type-C充电接口 / 6.22'水滴全面屏 / 指纹识别+AI人脸解锁 / 骁龙八核处理器 / 超大音量 / 1200万AI双摄 / 支持红外遥控 / 支持无线FM收音机",
+    "peizhi": [
+      {
+        "peizhi_id": 501,
+        "peizhi_title": "宝石蓝"
+      },
+      {
+        "peizhi_id": 502,
+        "peizhi_title": "仙踪绿"
+      },
+      {
+        "peizhi_id": 503,
+        "peizhi_title": "碳岩灰"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "小米手表",
+    "price": 1199,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1581834069.19797450!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581834069.19797450.jpg",
+    "xinxi": "能打电话、独立上网 / 压力、睡眠、身体能量监测 / 36h超长续航 / 十大专业运动模式 / 多功能NFC / 小爱同学",
+    "peizhi": [
+      {
+        "peizhi_id": 601,
+        "peizhi_title": "典雅黑"
+      },
+      {
+        "peizhi_id": 602,
+        "peizhi_title": "科技银"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Redmi小爱音箱 Play",
+    "price": 79,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1583144717.08135562!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1575427252.04796744.jpg",
+    "xinxi": "听音乐、语音遥控家电的人工智能音箱",
+    "peizhi": [
+      {
+        "peizhi_id": 701,
+        "peizhi_title": "白色"
+      },
+      {
+        "peizhi_id": 702,
+        "peizhi_title": "蓝色"
+      },
+      {
+        "peizhi_id": 703,
+        "peizhi_title": "绿色"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "腾讯黑鲨游戏手机3",
+    "price": 3999,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1582886257.89939644!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1582886257.89939644.jpg",
+    "xinxi": "骁龙865处理器 / 双模5G / 腾讯Solar Core游戏引擎 / 270Hz触控采样率+90Hz屏幕刷新率 / 最高65W极速闪充+背部磁吸充电 / 4720mAh大容量双电池 / UFS3.0闪存 / “三明治”液冷散热 / 屏幕压感3.0 / 游戏语音操控",
+    "peizhi": [
+      {
+        "peizhi_id": 801,
+        "peizhi_title": "闪电灰"
+      },
+      {
+        "peizhi_id": 802,
+        "peizhi_title": "铠甲黑"
+      },
+      {
+        "peizhi_id": 803,
+        "peizhi_title": "星辰银"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "黑鲨双向快充移动电源",
+    "price": 3999,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1574851263.90072104!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1574851263.90072104.jpg",
+    "xinxi": "18W双向快充 / 铠甲机身 / 一入三出 / 炫酷灯效",
+    "peizhi": [
+      {
+        "peizhi_id": 901,
+        "peizhi_title": "白色"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "小米极简都市双肩包 2",
+    "price": 129,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1571835364.03252863!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1571835343.8744739.jpg",
+    "xinxi": "可容纳15.6英寸电脑 / 耐磨防水 / 方形简约造型 / 轻巧坚固",
+    "peizhi": [
+      {
+        "peizhi_id": 1001,
+        "peizhi_title": "深灰"
+      },
+      {
+        "peizhi_id": 1002,
+        "peizhi_title": "蓝色"
+      },
+      {
+        "peizhi_id": 1003,
+        "peizhi_title": "浅灰"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "小米电视4C 40英寸影院版",
+    "price": 1398,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1555464434.42718256!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1555464434.42718256.jpg",
+    "xinxi": "人工智能系统 / 海量片源 / FHD全高清 / 64位四核处理器 / 1GB+4GB内存",
+    "peizhi": [
+      {
+        "peizhi_id": 1101,
+        "peizhi_title": "银灰"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Redmi AirDots 真无线蓝牙耳机",
+    "price": 99.9,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1552810000.38783658!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1552810000.38783658.jpg",
+    "xinxi": "自动秒连，拿起耳机就能用 / 新一代蓝牙5.0技术 / 12小时长续航 / 双耳多功能按键，防误触 / 召唤语音助手",
+    "peizhi": [
+      {
+        "peizhi_id": 1201,
+        "peizhi_title": "黑色"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "小米移动电源3 20000mAh 高配版",
+    "price": 199,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1546058471.685154!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1546058471.685154.jpg",
+    "xinxi": "USB-C 45W 双向快充 / 三口输出 / 大容量 / 支持笔记本电脑充电 / 高品质锂聚合物电芯",
+    "peizhi": [
+      {
+        "peizhi_id": 1301,
+        "peizhi_title": "黑色"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "米兔儿童滑板车",
+    "price": 219,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1553484007.64174630!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1553484007.64174630.jpg",
+    "xinxi": "双弹簧重力转向系统 ／ 内部动力转化自发光灯珠 ／ 软胶包裹的C型把手 ／ 模式高度可调节",
+    "peizhi": [
+      {
+        "peizhi_id": 1401,
+        "peizhi_title": "蓝"
+      },
+      {
+        "peizhi_id": 1401,
+        "peizhi_title": "粉"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "90分框体旅行箱系列",
+    "price": 599,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1557905165.03261937!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1557905165.03261937.jpg",
+    "xinxi": "可选尺寸：20英寸、24英寸，可选颜色：蓝色、黑色、白色、粉色，专利无缝内衬结构，坚固易拆洗 ，专利轻量合金中框，轻盈坚固 ，一键开启，可单手开锁。【此商品不参与满150元包邮活动，第三方商家发货与售后】",
+    "peizhi": [
+      {
+        "peizhi_id": 1501,
+        "peizhi_title": "黑色"
+      },
+      {
+        "peizhi_id": 1501,
+        "peizhi_title": "蓝色"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "小米VR一体机 超级玩家版",
+    "price": 1999,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1554738222.83651040!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1554738222.83651040.jpg",
+    "xinxi": "内含21款总价700元精选VR游戏",
+    "peizhi": [
+      {
+        "peizhi_id": 1601,
+        "peizhi_title": "白"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "小米9 Pro 5G",
+    "price": 3799,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1569242296.37558703!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1569242378.68478559.jpg",
+    "xinxi": "5G双卡全网通超高速网络 / 骁龙855Plus旗舰处理器 / 40W有线闪充+30W无线闪充+10W无线反充，4000mAh长续航 / 4800万全焦段三摄 / 超振感横向线性马达 / VC液冷散热 / 高色准三星AMOLED屏幕 / 多功能NFC / 赠送小米云服务1TB云存储",
+    "peizhi": [
+      {
+        "peizhi_id": 1701,
+        "peizhi_title": "钛银黑"
+      },
+      {
+        "peizhi_id": 1702,
+        "peizhi_title": "梦之白"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "米家智能门锁",
+    "price": 1195,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1578042981.26456773!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1578042981.26456773.jpg",
+    "xinxi": "直插式C级智能锁芯 / 6大开锁方式 / 超16项安全黑科技 / 7大安全监测 / 抵御小黑盒攻击 / 丰富的智能联动",
+    "peizhi": [
+      {
+        "peizhi_id": 1801,
+        "peizhi_title": "标准碳素黑"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "小米平板4",
+    "price": 1399,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1529843015.87318324!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1529843015.87318324.jpg",
+    "xinxi": "8' 屏幕，单手可握的追剧神器 / 6000mAh大容量电池 / 支持AI人脸识别 / 后置1300万，前置500万摄像头 / 金属机身，超窄边框 / 骁龙660八核处理器",
+    "peizhi": [
+      {
+        "peizhi_id": 1901,
+        "peizhi_title": "黑色"
+      },
+      {
+        "peizhi_id": 1902,
+        "peizhi_title": "金色"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Air 13.3' 2019款 ",
+    "price": 4999,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1553153643.14871317!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1559028664.42218699.png",
+    "xinxi": "轻薄全金属机身 / MX250独立显卡 / 9.5小时超长续航 / FHD全高清屏幕 / 指纹解锁 / 兼顾办公娱乐与轻薄的高性能笔记本",
+    "peizhi": [
+      {
+        "peizhi_id": 2001,
+        "peizhi_title": "银色"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "最生活毛巾•青春系列",
+    "price": 19.9,
+    "figure_img": "https://i1.mifile.cn/a1/pms_1528169368.36792823!200x200.jpg",
+    "big_img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1528169343.02481518.jpg",
+    "xinxi": "阿瓦提长绒棉 / 瑞典抗菌科技 / 专利密封包装 / 3秒吸水",
+    "peizhi": [
+      {
+        "peizhi_id": 2101,
+        "peizhi_title": "绿色"
+      },
+      {
+        "peizhi_id": 2102,
+        "peizhi_title": "蓝色"
+      }
+    ]
+  }
+]

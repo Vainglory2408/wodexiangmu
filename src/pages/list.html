@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../lib/pagination/pagination.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="top center">
+            <div class="left fl">
+                <ul>
+                    <li><a href="index.html">小米商城</a></li>
+                    <li>|</li>
+                    <li><a href="">MIUI</a></li>
+                    <li>|</li>
+                    <li><a href="">米聊</a></li>
+                    <li>|</li>
+                    <li><a href="">游戏</a></li>
+                    <li>|</li>
+                    <li><a href="">多看阅读</a></li>
+                    <li>|</li>
+                    <li><a href="">云服务</a></li>
+                    <li>|</li>
+                    <li><a href="">金融</a></li>
+                    <li>|</li>
+                    <li><a href="">小米商城移动版</a></li>
+                    <li>|</li>
+                    <li><a href="">问题反馈</a></li>
+                    <li>|</li>
+                    <li><a href="">Select Region</a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="right fr">
+                <div class="gouwuche fr"><a href="">购物车</a></div>
+                <div class="fr">
+                    <ul>
+                        <li><a href="login.html">登录</a></li>
+                        <li>|</li>
+                        <li><a href="register.html">注册</a></li>
+                        <li>|</li>
+                        <li><a href="">消息通知</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end header -->
+
+    <!-- start banner_x -->
+    <div class="banner_x center">
+        <a href="index.html">
+            <div class="logo fl"></div>
+        </a>
+        <a href="">
+            <div class="ad_top fl"></div>
+        </a>
+        <div class="nav_top fl">
+            <ul>
+                <li><a href="">小米手机</a></li>
+                <li><a href="">Redmi红米</a></li>
+                <li><a href="">电视</a></li>
+                <li><a href="">笔记本</a></li>
+                <li><a href="">家电</a></li>
+                <li><a href="">路由器</a></li>
+                <li><a href="">智能硬件</a></li>
+                <li><a href="">服务</a></li>
+                <li><a href="">社区</a></li>
+            </ul>
+        </div>
+        <div class="search fr">
+            <form action="" method="post">
+                <div class="text fl">
+                    <input type="text" class="shuru" placeholder="小米6&nbsp;小米MIX现货">
+                </div>
+                <div class="submit fl">
+                    <input type="submit" class="sousuo" value="搜索" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end banner_x -->
+    <div class="breadcrumbs">
+        <div class="center">
+            <a href="index.html">首页</a><span class="sep">&gt;</span><span>所有商品</span> </div>
+    </div>
+    <div class="center">
+        <div class="filter_box">
+            <div class="filter_box_list">
+                <dl>
+                    <dt>分类：</dt>
+                    <dd class="active">全部</dd>
+                    <dd>小米平板</dd>
+                    <dd>保护套/贴膜</dd>
+                    <dd>路由器/智能硬件</dd>
+                    <dd>移动电源/插线板</dd>
+                    <dd>电池/储存卡</dd>
+                    <dd class="gengduo">更多</dd>
+                </dl>
+            </div>
+            <div class="filter_box_list">
+                <dl>
+                    <dt>机型：</dt>
+                    <dd class="active">全部</dd>
+                    <dd>Redmi Note 7 Pro</dd>
+                    <dd>黑鲨手机 2</dd>
+                    <dd>Redmi 7</dd>
+                    <dd>小米9 SE</dd>
+                    <dd>小米9</dd>
+                    <dd class="gengduo">更多</dd>
+                </dl>
+            </div>
+            <div class="filter_box_list xs">
+                <dl>
+                    <dt>品牌：</dt>
+                    <dd class="active">全部</dd>
+                    <dd>小米</dd>
+                    <dd>飞利浦</dd>
+                    <dd>第三方品牌</dd>
+                    <dd>ZMI</dd>
+                    <dd>90分</dd>
+                    <dd class="gengduo">更多</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- 内容区 -->
+    <div class="content">
+        <div class="center">
+            <div class="order_list clearfloat">
+                <ul>
+                    <li class="first">推荐</li>
+                    <li>价格</li>
+                </ul>
+            </div>
+            <div class="goods_list_box">
+                <div class="goods_list clearfloat">
+                </div>
+                <div class="pagi m-style"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../lib/pagination/pagination.js"></script>
+    <script>
+        getList()
+
+        function getList() {
+            $.ajax({
+                url: '../lib/list.json',
+                dataType: 'json',
+                success: function (res) {
+                    $('.pagi').pagination({
+                        pageCount: Math.ceil(res.length / 8),
+                        current: 1,
+                        jump: false,
+                        coping: true,
+                        homePage: '首页',
+                        endPage: '末页',
+                        prevContent: '上页',
+                        nextContent: '下页',
+                        callback: function (api) {
+                            let curr = api.getCurrent()
+                            var list = res.slice((curr - 1) * 8, curr * 8)
+                            bindHtml(list)
+                        }
+                    })
+                    bindHtml(res.slice(0, 8))
+                    list = res
+                    localHtml(list)
+
+                }
+            })
+        }
+
+        function bindHtml(list) {
+            let str = ''
+            list.forEach(item => {
+                str += `<div class="goods_item" data-id=${ item.id }>
+                            <div class="figure_img"><img src=${ item.figure_img }></div>
+                            <p class="desc"></p>
+                            <h2 class="title">${ item.name }</h2>
+                            <p class="price">${ item.price }元</p>
+                            <div class="thumb_img"><img src=${ item.figure_img }></div>
+                        </div>`
+            })
+            $('.goods_list').html(str)
+        }
+
+        function localHtml(list) {
+            $('.goods_list').on('click', '.goods_item', function () {
+                console.log(this);
+                const id = $(this).data('id')
+                let data = null
+                for (let i = 0; i < list.length; i++) {
+                    if (list[i].id === id) {
+                        data = list[i]
+                        break
+                    }
+                }
+                console.log(data)
+
+
+                localStorage.setItem('goodsInfo', JSON.stringify(data))
+                window.location.href = './xiangqing.html'
+            })
+
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+*,
+header,
+hgroup,
+img,
+input,
+li,
+menu,
+nav,
+ol,
+p,
+section,
+select,
+table,
+tbody,
+td,
+textarea,
+th,
+tr,
+ul {
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+    /* border: none */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+.clearfloat::after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
